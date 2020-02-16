@@ -1,0 +1,24 @@
+Codepen HTML and CSS Practice: https://codepen.io/Julie108/pen/xxGVYgo
+
+1. What is the difference between an inline element and a block element?
+       Block elements change the layout of the text, for example with a <p> element. Inline elements can go within the block elements and don't change the layout, for example the <em> element will only italicize the text.
+
+
+2. What happens when an element is positioned absolutely? 
+    An element that is positioned absolutely, will be positioned relative to the closest positioned ancestor or go along with the document body, scrolling with the page.
+
+
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    I think that you could use the "width" property in CSS to adjust the width.
+
+4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default.
+        display block elements: <p>. <header>, <footer>
+        display inline elements: <a>, <em>, <span>
+        display inline-block: <img>
+ 
+5. In your own words, explain the box model. What is the fix for the box model? 
+     The box model consists of margins, borders, padding, and the content; which is wrapped around each HTML element. 
+
+
+6. What is the fix for the box model? 
+     box-sizing: border-box
